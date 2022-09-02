@@ -40,13 +40,15 @@ body {
     list-style-type:none;
     display:flex;
     width: 100%;
+    float: right;
 }
 
 .header nav ul li {
-    display:inline-flex;
+    display:inline-block;
     margin-left: -20px;
     width: 100%;
-}
+    float: right;
+    }
 
 a {
     color: #ffffff;
